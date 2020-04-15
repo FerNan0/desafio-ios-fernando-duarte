@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6C780308-3B3A-45E4-A0A3-BDF8F5CA85F6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CAB632A5-55F8-4D6B-ACD3-FB7E3A143917"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "desafio-ios-fernando-duarte/Listagem/ListagemViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "doRequestDefault(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CAB632A5-55F8-4D6B-ACD3-FB7E3A143917 - a5bc270969746a41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "desafio_ios_fernando_duarte.ListagemViewController.doRequestDefault(url: Swift.String) -&gt; ()"
+                  moduleName = "desafio-ios-fernando-duarte"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fernano/Desktop/Coisas/FerNano0/desafio-ios-fernando-duarte/desafio-ios-fernando-duarte/desafio-ios-fernando-duarte/Listagem/ListagemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "CAB632A5-55F8-4D6B-ACD3-FB7E3A143917 - 4694c02038dc1c08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data) -&gt; () in desafio_ios_fernando_duarte.ListagemViewController.doRequestDefault(url: Swift.String) -&gt; ()"
+                  moduleName = "desafio-ios-fernando-duarte"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fernano/Desktop/Coisas/FerNano0/desafio-ios-fernando-duarte/desafio-ios-fernando-duarte/desafio-ios-fernando-duarte/Listagem/ListagemViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBBCD0B6-A3C5-4278-AAEC-63441E413A32"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "desafio-ios-fernando-duarte/Listagem/ListagemViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "doRequestDefault(url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D5C1C8D-B2F2-485F-B083-34F6CAC901AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "desafio-ios-fernando-duarte/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

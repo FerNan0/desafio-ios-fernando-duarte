@@ -6,8 +6,16 @@
 //  Copyright © 2020 Fernando F Duarte. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-class ListagemInteractor {
+protocol callRequest {
+    func request(method:String, completion: @escaping (Data) -> ())
+}
+
+class ListagemInteractor: callRequest {
+    func request(method: String, completion: @escaping (Data) -> ()) {
+        ConnectorHelper.request(method: method, completion: completion)
+    }
+    
     
 }

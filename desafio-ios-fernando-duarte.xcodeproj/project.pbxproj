@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		DE9C36072447736500766E4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C36062447736500766E4F /* AppDelegate.swift */; };
 		DE9C36092447736500766E4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C36082447736500766E4F /* SceneDelegate.swift */; };
-		DE9C360B2447736500766E4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C360A2447736500766E4F /* ViewController.swift */; };
-		DE9C360E2447736500766E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9C360C2447736500766E4F /* Main.storyboard */; };
 		DE9C36102447739D00766E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9C360F2447739D00766E4F /* Assets.xcassets */; };
 		DE9C36132447739D00766E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9C36112447739D00766E4F /* LaunchScreen.storyboard */; };
 		DE9C361E2447739E00766E4F /* desafio_ios_fernando_duarteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C361D2447739E00766E4F /* desafio_ios_fernando_duarteTests.swift */; };
@@ -27,6 +25,18 @@
 		DE9C36442447777600766E4F /* Listagem.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9C36432447777600766E4F /* Listagem.xib */; };
 		DE9C36452447777600766E4F /* Listagem.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9C36432447777600766E4F /* Listagem.xib */; };
 		DE9C36462447777600766E4F /* Listagem.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9C36432447777600766E4F /* Listagem.xib */; };
+		DE9C364924478FBE00766E4F /* ConnectorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C364824478FBE00766E4F /* ConnectorHelper.swift */; };
+		DE9C364A24478FBF00766E4F /* ConnectorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C364824478FBE00766E4F /* ConnectorHelper.swift */; };
+		DE9C364B24478FBF00766E4F /* ConnectorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C364824478FBE00766E4F /* ConnectorHelper.swift */; };
+		DE9C364E2447945D00766E4F /* NavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9C364D2447945D00766E4F /* NavController.xib */; };
+		DE9C364F2447945D00766E4F /* NavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9C364D2447945D00766E4F /* NavController.xib */; };
+		DE9C36502447945D00766E4F /* NavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9C364D2447945D00766E4F /* NavController.xib */; };
+		DE9C3652244794F500766E4F /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C3651244794F500766E4F /* NavController.swift */; };
+		DE9C3653244794F500766E4F /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C3651244794F500766E4F /* NavController.swift */; };
+		DE9C3654244794F500766E4F /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C3651244794F500766E4F /* NavController.swift */; };
+		DE9C36562447A3F800766E4F /* ListagemModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C36552447A3F700766E4F /* ListagemModels.swift */; };
+		DE9C36572447A3F800766E4F /* ListagemModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C36552447A3F700766E4F /* ListagemModels.swift */; };
+		DE9C36582447A3F800766E4F /* ListagemModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C36552447A3F700766E4F /* ListagemModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +60,6 @@
 		DE9C36032447736500766E4F /* desafio-ios-fernando-duarte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafio-ios-fernando-duarte.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9C36062447736500766E4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE9C36082447736500766E4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE9C360A2447736500766E4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE9C360D2447736500766E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE9C360F2447739D00766E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE9C36122447739D00766E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE9C36142447739D00766E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +73,10 @@
 		DE9C363B244776FB00766E4F /* ListagemPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListagemPresenter.swift; sourceTree = "<group>"; };
 		DE9C363F2447771200766E4F /* ListagemInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListagemInteractor.swift; sourceTree = "<group>"; };
 		DE9C36432447777600766E4F /* Listagem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Listagem.xib; sourceTree = "<group>"; };
+		DE9C364824478FBE00766E4F /* ConnectorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectorHelper.swift; sourceTree = "<group>"; };
+		DE9C364D2447945D00766E4F /* NavController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavController.xib; sourceTree = "<group>"; };
+		DE9C3651244794F500766E4F /* NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		DE9C36552447A3F700766E4F /* ListagemModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListagemModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,12 +127,11 @@
 		DE9C36052447736500766E4F /* desafio-ios-fernando-duarte */ = {
 			isa = PBXGroup;
 			children = (
+				DE9C364C2447941300766E4F /* Navigation */,
 				DE9C364724477AFF00766E4F /* Connector */,
 				DE9C36362447769700766E4F /* Listagem */,
 				DE9C36062447736500766E4F /* AppDelegate.swift */,
 				DE9C36082447736500766E4F /* SceneDelegate.swift */,
-				DE9C360A2447736500766E4F /* ViewController.swift */,
-				DE9C360C2447736500766E4F /* Main.storyboard */,
 				DE9C360F2447739D00766E4F /* Assets.xcassets */,
 				DE9C36112447739D00766E4F /* LaunchScreen.storyboard */,
 				DE9C36142447739D00766E4F /* Info.plist */,
@@ -153,6 +164,7 @@
 				DE9C363F2447771200766E4F /* ListagemInteractor.swift */,
 				DE9C363B244776FB00766E4F /* ListagemPresenter.swift */,
 				DE9C36432447777600766E4F /* Listagem.xib */,
+				DE9C36552447A3F700766E4F /* ListagemModels.swift */,
 			);
 			path = Listagem;
 			sourceTree = "<group>";
@@ -160,8 +172,18 @@
 		DE9C364724477AFF00766E4F /* Connector */ = {
 			isa = PBXGroup;
 			children = (
+				DE9C364824478FBE00766E4F /* ConnectorHelper.swift */,
 			);
 			path = Connector;
+			sourceTree = "<group>";
+		};
+		DE9C364C2447941300766E4F /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				DE9C364D2447945D00766E4F /* NavController.xib */,
+				DE9C3651244794F500766E4F /* NavController.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +291,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE9C36132447739D00766E4F /* LaunchScreen.storyboard in Resources */,
+				DE9C364E2447945D00766E4F /* NavController.xib in Resources */,
 				DE9C36102447739D00766E4F /* Assets.xcassets in Resources */,
-				DE9C360E2447736500766E4F /* Main.storyboard in Resources */,
 				DE9C36442447777600766E4F /* Listagem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE9C36452447777600766E4F /* Listagem.xib in Resources */,
+				DE9C364F2447945D00766E4F /* NavController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE9C36462447777600766E4F /* Listagem.xib in Resources */,
+				DE9C36502447945D00766E4F /* NavController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,10 +324,12 @@
 			files = (
 				DE9C3638244776E500766E4F /* ListagemViewController.swift in Sources */,
 				DE9C363C244776FB00766E4F /* ListagemPresenter.swift in Sources */,
-				DE9C360B2447736500766E4F /* ViewController.swift in Sources */,
+				DE9C364924478FBE00766E4F /* ConnectorHelper.swift in Sources */,
 				DE9C36072447736500766E4F /* AppDelegate.swift in Sources */,
 				DE9C36402447771200766E4F /* ListagemInteractor.swift in Sources */,
 				DE9C36092447736500766E4F /* SceneDelegate.swift in Sources */,
+				DE9C36562447A3F800766E4F /* ListagemModels.swift in Sources */,
+				DE9C3652244794F500766E4F /* NavController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,8 +339,11 @@
 			files = (
 				DE9C36412447771200766E4F /* ListagemInteractor.swift in Sources */,
 				DE9C3639244776E500766E4F /* ListagemViewController.swift in Sources */,
+				DE9C36572447A3F800766E4F /* ListagemModels.swift in Sources */,
 				DE9C363D244776FB00766E4F /* ListagemPresenter.swift in Sources */,
 				DE9C361E2447739E00766E4F /* desafio_ios_fernando_duarteTests.swift in Sources */,
+				DE9C364A24478FBF00766E4F /* ConnectorHelper.swift in Sources */,
+				DE9C3653244794F500766E4F /* NavController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,8 +353,11 @@
 			files = (
 				DE9C36422447771200766E4F /* ListagemInteractor.swift in Sources */,
 				DE9C363A244776E500766E4F /* ListagemViewController.swift in Sources */,
+				DE9C36582447A3F800766E4F /* ListagemModels.swift in Sources */,
 				DE9C363E244776FB00766E4F /* ListagemPresenter.swift in Sources */,
 				DE9C36292447739E00766E4F /* desafio_ios_fernando_duarteUITests.swift in Sources */,
+				DE9C364B24478FBF00766E4F /* ConnectorHelper.swift in Sources */,
+				DE9C3654244794F500766E4F /* NavController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,14 +377,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DE9C360C2447736500766E4F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE9C360D2447736500766E4F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DE9C36112447739D00766E4F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
