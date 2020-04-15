@@ -15,6 +15,18 @@
 		DE9C36132447739D00766E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9C36112447739D00766E4F /* LaunchScreen.storyboard */; };
 		DE9C361E2447739E00766E4F /* desafio_ios_fernando_duarteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C361D2447739E00766E4F /* desafio_ios_fernando_duarteTests.swift */; };
 		DE9C36292447739E00766E4F /* desafio_ios_fernando_duarteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C36282447739E00766E4F /* desafio_ios_fernando_duarteUITests.swift */; };
+		DE9C3638244776E500766E4F /* ListagemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C3637244776E500766E4F /* ListagemViewController.swift */; };
+		DE9C3639244776E500766E4F /* ListagemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C3637244776E500766E4F /* ListagemViewController.swift */; };
+		DE9C363A244776E500766E4F /* ListagemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C3637244776E500766E4F /* ListagemViewController.swift */; };
+		DE9C363C244776FB00766E4F /* ListagemPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C363B244776FB00766E4F /* ListagemPresenter.swift */; };
+		DE9C363D244776FB00766E4F /* ListagemPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C363B244776FB00766E4F /* ListagemPresenter.swift */; };
+		DE9C363E244776FB00766E4F /* ListagemPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C363B244776FB00766E4F /* ListagemPresenter.swift */; };
+		DE9C36402447771200766E4F /* ListagemInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C363F2447771200766E4F /* ListagemInteractor.swift */; };
+		DE9C36412447771200766E4F /* ListagemInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C363F2447771200766E4F /* ListagemInteractor.swift */; };
+		DE9C36422447771200766E4F /* ListagemInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9C363F2447771200766E4F /* ListagemInteractor.swift */; };
+		DE9C36442447777600766E4F /* Listagem.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9C36432447777600766E4F /* Listagem.xib */; };
+		DE9C36452447777600766E4F /* Listagem.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9C36432447777600766E4F /* Listagem.xib */; };
+		DE9C36462447777600766E4F /* Listagem.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9C36432447777600766E4F /* Listagem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,10 @@
 		DE9C36242447739E00766E4F /* desafio-ios-fernando-duarteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "desafio-ios-fernando-duarteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9C36282447739E00766E4F /* desafio_ios_fernando_duarteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafio_ios_fernando_duarteUITests.swift; sourceTree = "<group>"; };
 		DE9C362A2447739E00766E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9C3637244776E500766E4F /* ListagemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListagemViewController.swift; sourceTree = "<group>"; };
+		DE9C363B244776FB00766E4F /* ListagemPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListagemPresenter.swift; sourceTree = "<group>"; };
+		DE9C363F2447771200766E4F /* ListagemInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListagemInteractor.swift; sourceTree = "<group>"; };
+		DE9C36432447777600766E4F /* Listagem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Listagem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,8 @@
 		DE9C36052447736500766E4F /* desafio-ios-fernando-duarte */ = {
 			isa = PBXGroup;
 			children = (
+				DE9C364724477AFF00766E4F /* Connector */,
+				DE9C36362447769700766E4F /* Listagem */,
 				DE9C36062447736500766E4F /* AppDelegate.swift */,
 				DE9C36082447736500766E4F /* SceneDelegate.swift */,
 				DE9C360A2447736500766E4F /* ViewController.swift */,
@@ -126,6 +144,24 @@
 				DE9C362A2447739E00766E4F /* Info.plist */,
 			);
 			path = "desafio-ios-fernando-duarteUITests";
+			sourceTree = "<group>";
+		};
+		DE9C36362447769700766E4F /* Listagem */ = {
+			isa = PBXGroup;
+			children = (
+				DE9C3637244776E500766E4F /* ListagemViewController.swift */,
+				DE9C363F2447771200766E4F /* ListagemInteractor.swift */,
+				DE9C363B244776FB00766E4F /* ListagemPresenter.swift */,
+				DE9C36432447777600766E4F /* Listagem.xib */,
+			);
+			path = Listagem;
+			sourceTree = "<group>";
+		};
+		DE9C364724477AFF00766E4F /* Connector */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Connector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +271,7 @@
 				DE9C36132447739D00766E4F /* LaunchScreen.storyboard in Resources */,
 				DE9C36102447739D00766E4F /* Assets.xcassets in Resources */,
 				DE9C360E2447736500766E4F /* Main.storyboard in Resources */,
+				DE9C36442447777600766E4F /* Listagem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9C36452447777600766E4F /* Listagem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9C36462447777600766E4F /* Listagem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9C3638244776E500766E4F /* ListagemViewController.swift in Sources */,
+				DE9C363C244776FB00766E4F /* ListagemPresenter.swift in Sources */,
 				DE9C360B2447736500766E4F /* ViewController.swift in Sources */,
 				DE9C36072447736500766E4F /* AppDelegate.swift in Sources */,
+				DE9C36402447771200766E4F /* ListagemInteractor.swift in Sources */,
 				DE9C36092447736500766E4F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +311,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9C36412447771200766E4F /* ListagemInteractor.swift in Sources */,
+				DE9C3639244776E500766E4F /* ListagemViewController.swift in Sources */,
+				DE9C363D244776FB00766E4F /* ListagemPresenter.swift in Sources */,
 				DE9C361E2447739E00766E4F /* desafio_ios_fernando_duarteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +322,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9C36422447771200766E4F /* ListagemInteractor.swift in Sources */,
+				DE9C363A244776E500766E4F /* ListagemViewController.swift in Sources */,
+				DE9C363E244776FB00766E4F /* ListagemPresenter.swift in Sources */,
 				DE9C36292447739E00766E4F /* desafio_ios_fernando_duarteUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KL9859L967;
 				INFOPLIST_FILE = "desafio-ios-fernando-duarte/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +493,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "myown.desafio-ios-fernando-duarte";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,6 +504,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KL9859L967;
 				INFOPLIST_FILE = "desafio-ios-fernando-duarte/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +512,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "myown.desafio-ios-fernando-duarte";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
